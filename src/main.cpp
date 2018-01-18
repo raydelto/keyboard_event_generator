@@ -9,7 +9,7 @@ int main() {
 		// Sleeping for 500 milliseconds
 		Sleep(500);
 		// Press key
-		inputEvent.ki.wVk = VK_UP; // virtual-key code for the "a" key
+		inputEvent.ki.wVk = VK_UP; // virtual-key code for the up arrow key
 		inputEvent.ki.dwFlags = 0; // 0 for key press
 		SendInput(1, &inputEvent, sizeof(INPUT));
 
